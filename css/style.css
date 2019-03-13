@@ -23,7 +23,7 @@
 
 .navbar-inverse {
     background-color: #CC4646;
-  
+    border-radius: 0;
     border-color: #F57676;
     margin: 0 !important;
 }
@@ -50,7 +50,7 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #ccc;
+    color: #fff;
 }
 .navbar-inverse .navbar-collapse{
 	border:none;
@@ -553,8 +553,7 @@ portfolio-container {
 .about .teps {
     background: #fff;
     border: 2px solid #e4e4e4;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 30px 0;
     margin-bottom: 15px;
 }
 
@@ -566,7 +565,7 @@ portfolio-container {
     background-color: #f0f0f0;
     font-size: 15px;
     color: #777777;
-    padding: 20px;
+    padding: 25px;
     margin: 0px;
     margin-top: -3px;
 }
@@ -749,6 +748,9 @@ portfolio-container {
 }
 
 @media only screen and (max-width: 768px) {
+    .navbar-nav > li > a {
+        padding: 10px;
+    }
     #timeline .timeline-movement .timeline-item .timeline-panel {
         width: 90%;
         margin: 0 auto;
